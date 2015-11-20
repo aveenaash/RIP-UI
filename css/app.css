@@ -1,0 +1,48 @@
+.account-info-item {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  color: #222222;
+  font-weight: 300; }
+
+.account-info-item > div {
+  display: inline-block;
+  vertical-align: middle; }
+
+.account-info-item:last-child {
+  border-bottom: 1px solid #e5e5e5; }
+
+  .account-name {
+  color: #0066b7;
+  font-weight: 500;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  max-height: 40px; }
+
+.account-number {
+  font-size: 13px;
+  color: #838383;
+  margin-top: -2px; }
+
+  /*.account-balance-cont {
+  width: 50%; }
+
+.account-balance-cont > div {
+  float: right; }*/
+
+.account-balance {
+  font-size: 25px;
+  color: #222222;
+  letter-spacing: -1px; }
+
+.account-balance i {
+  color: #105fa8;
+  font-size: 16px;
+  margin-left: 5px; }

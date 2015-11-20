@@ -1,0 +1,27 @@
+<div>
+	<div class="text-center">
+		<h1>Account Summary Pages</h1>
+	</div>
+	
+	<div class="list" style="margin-bottom: 10px;">
+		<div ng-repeat="acc in accounts" ng-click="getAccountDetails(acc)"  class="item account-info-item">
+			<div style="width: 50%;">
+				<div style="float:left;">
+					<div class="account-name">
+						{{acc.accountNumber}}
+					</div>
+					<div class="account-number">
+						{{acc.accountType}}
+					</div>
+				</div>
+			</div>
+			<div>
+				<div style="float:right;">
+					<div class="account-balance">
+						$ {{acc.accountBalance}}
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+</div>
